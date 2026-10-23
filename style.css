@@ -192,6 +192,8 @@ ul{
 .hero-section{
     background-color: #031335;
     width: 100%;
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius: 50px;
     
 }
 .hero-wrapper{
@@ -206,7 +208,7 @@ ul{
 .hero-text{
     width: 50%;
     /* border:2px solid green; */
-    padding-top: 100px;
+    padding-top: 90px;
 }
 .first-img{
     display: flex;
@@ -272,7 +274,7 @@ ul{
 }
 .hero-image{
     /* border: 2px solid purple; */
-    padding-top: 100px;
+    padding-top: 90px;
     width: 45%
 }
 .hero-img img{
@@ -349,4 +351,179 @@ ul{
     .collect{
         font-size:8px;
     }
+}
+
+            /* over-lapping section */
+
+
+            
+.over-lapping{
+    width: 100%;
+}
+.over-lapp{
+    width: 95%;
+    margin: auto;
+    border: 2px solid crimson;
+    width: 80em;
+    height: 30em;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    position: relative;
+    top: -30px;
+}
+.over-laptext{
+    display: flex;
+    /* justify-content: space-between; */
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+.over-laptext1{
+    display: flex;
+    gap: 1em;
+    border: 2px solid green;
+}
+.over-laptext1 h1{
+    src: url("./fonts/Aventa-ExtraBold.woff2") format("woff2");
+    font-style: normal;
+    font-family: "Aventa-ExtraBold", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #092256;
+    width:40%;
+    /* position: absolute; */
+    /* left: 50px; */
+}
+.over-laptext1 h5{
+    color: #3E588E;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 500;
+    width: 35%;
+    /* position: absolute; */
+    /* left: 100px; */
+}
+.over-laptext1 h5 span{
+    color: #0357EE;
+}
+.over-laptext2{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 50px;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 1px blue;
+    border: 2px solid yellow;
+}
+.over-lapimg{
+    position:absolute;
+    display: flex;
+    animation: scroll-logos 15s linear infinite;
+    top: 15em;
+}
+.over-lapimg div img{
+    width: 110px;
+    border: 2px solid crimson;
+}
+.over-lap1{
+    border: thin solid #E5E9F1;
+    background-color: white;
+    width: 10.2em;
+    height: 10.2em;
+    position: relative;
+    left: 1em;
+}
+.over-lap1 img{
+    position: absolute;
+    /* width: 100px; */
+    left: 1.8em;
+    top: 2em;
+}
+.over-lap2{
+    position: relative;
+    width: 10.2em;
+    height: 10.2em;
+    border: thin solid #E5E9F1;
+    background-color: white;
+    left: 2em;
+}
+.over-lap2 img{
+    position: absolute;
+    left: 1.8em;
+    top: 2em;
+}
+.over-lap3{
+    position: relative;
+    width: 10.2em;
+    height: 10.2em;
+    border: thin solid #E5E9F1;
+    background-color: white;
+    left: 3em;
+}
+.over-lap3 img{
+    position: absolute;
+    left: 1.8em;
+    top: 2em;
+}
+.over-lap4{
+    position: relative;
+    width: 10.2em;
+    height: 10.2em;
+    border: thin solid #E5E9F1;
+    background-color: white;
+    left: 4em;
+}
+.over-lap4 img{
+    position: absolute;
+    left: 1.8em;
+    top: 2em;
+}
+.over-lap5{
+    position: relative;
+    width: 10.2em;
+    height: 10.2em;
+    border: thin solid #E5E9F1;
+    background-color: white;
+    left: 5em;
+}
+.over-lap5 img{
+    position: absolute;
+    left: 1.8em;
+    top: 2em;
+}
+.over-lap6{
+    position: relative;
+    width: 10.2em;
+    height: 10.2em;
+    border: thin solid #E5E9F1;
+    background-color: white;
+    left: 6em;
+}
+.over-lap6 img{
+    position: absolute;
+    left: 1.8em;
+    top: 2em;
+}
+.over-lap7{
+    position: relative;
+    width: 10.2em;
+    height: 10.2em;
+    border: thin solid #E5E9F1;
+    background-color: white;
+    left: 7em;
+}
+.over-lap7 img{
+    position: absolute;
+    left: 1.8em;
+    top: 2em;
+}
+@keyframes scroll-logos {
+  from {
+    transform: translateX(2%);
+  }
+
+  to {
+    transform: translateX(-2%);
+  }
 }
