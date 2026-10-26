@@ -1216,8 +1216,6 @@ ul{
 }
 
 
-
-
             /* footer section */
 
     
@@ -1226,5 +1224,183 @@ ul{
     width: 100%;
 }
 .footer-section{
-    width: 95%;
+    width: 90%;
+    margin: auto;
+}
+.moniewhite{
+    width: 150px;
+    margin-top: 50px;
+}
+.overall{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid crimson; */
+    margin-bottom: 50px;
+}
+.first-div{
+    display: flex;
+    gap: 4em;
+}
+.second-div{
+    display: flex;
+    gap: 4em;
+}
+.microfinance{
+    /* border: 2px solid crimson; */
+    width: 40%;
+    /* height: 30%; */
+}
+.microfinance p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 13px;
+    font-weight: 500;
+    color: #B1B4B9;
+    line-height: 20.8505px;
+    margin-bottom: 30px;
+    /* border: 2px solid green; */
+    width: 75%;
+}
+.bottton{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+.signn{
+    background-color: #020711;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: white;
+}
+.storee{
+    width: 25px;
+}
+.forbusiness{
+    line-height: 28.0789px;
+}
+.forpersonal{
+    line-height: 28.0789px;
+}
+.company{
+    line-height: 28.0789px;
+}
+.resources{
+    line-height: 28.0789px;
+}
+.forbusinessh4{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.forbusinesslia{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 500;
+    color: #B1B4B9;
+}
+
+.addresss{
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 500;
+    color: #B1B4B9;
+    line-height: 22.1596px;
+}
+.address{
+    display: flex;
+    /* border: 2px solid yellow; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.address h4{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 500;
+    color: #B1B4B9;
+    line-height: 22.1596px;
+}
+.connectus{
+    line-height: 22.1596px;
+}
+.findus{
+    line-height: 22.1596px;
+}
+.linee{
+    border-top: thin solid #B1B4B9;
+    margin-bottom: 10px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 500;
+    color: #565B67;
+    margin-bottom: 70px;
+}
+.policy{
+    display: flex;
+    gap: 4em;
+}
+.last p{
+    color: #565B67;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 25.8971px;
+}
+
+
+            /* footer media query */
+
+@media(max-width:1075px){
+    .bottton a{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:961px){
+    .microfinance{
+        width: 100%;
+    }
+    .microfinance p{
+        width: 100%;
+    }
+    .overall{
+        flex-direction: column;
+    }
+    .bottton{
+        margin-bottom: 20px;
+    }
+    .first-div{
+        display: flex;
+        justify-content: center; 
+        margin-bottom: 20px;
+    }
+    .second-div{
+        display: flex;
+        justify-content: center; 
+    }
+}
+
+@media(max-width:575px){
+    .first-div{
+        margin-bottom: 20px;
+    }
+    .support{
+        display: none;
+    }
+    .address{
+        display: flex;
+        gap: 1em;
+    }
 }
