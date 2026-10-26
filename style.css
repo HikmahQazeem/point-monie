@@ -778,7 +778,7 @@ ul{
     border-radius: 20px;
 }
 .businessacc{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 30em;
 }
 .pointsale{
@@ -804,7 +804,7 @@ ul{
 .moniebook{
     display:flex ;
     justify-content: space-around;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
         /* following section media query */
 
@@ -904,5 +904,327 @@ ul{
     margin: auto;
 }
 .what-text{
-    margin-top: 0;
+    display: flex;
+    gap: 18em;
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+}
+.whatsm{
+    color: #092256;
+    src: url("./fonts/Aventa-ExtraBold.woff2") format("woff2");
+    font-style: normal;
+    font-family: "Aventa-ExtraBold", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.whatsmm{
+    color: #3E588E;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 500;
+    width: 25%;
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+    /* border: 2px solid crimson; */
+    gap: 2.2em;
+    margin-bottom: 100px;
+}
+.manage{
+    border: thin solid #E1F4FE;
+    width: 25em;
+    height: 20em;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    position: relative;
+
+}
+.performance{
+    border: thin solid #E1F4FE;
+    width: 25em;
+    height: 20em;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+.help{
+    border: thin solid #E1F4FE;
+    width: 25em;
+    height: 20em;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+.manage img{
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+}
+.manage h2{
+    position: absolute;
+    color: #031335;
+    src: url("./fonts/Aventa-ExtraBold.woff2") format("woff2");
+    font-style: normal;
+    font-family: "Aventa-ExtraBold", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    left: 2.5em;
+    top: 8em;
+}
+.manage h4{
+    position: absolute;
+    color: #3E588E;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 500;
+    width: 77%;
+    /* border: 2px solid yellow; */
+    left: 2.5em;
+    top: 13em;
+}
+.performance img{
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+}
+.performance h2{
+    position: absolute;
+    color: #031335;
+    src: url("./fonts/Aventa-ExtraBold.woff2") format("woff2");
+    font-style: normal;
+    font-family: "Aventa-ExtraBold", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    left: 2.5em;
+    top: 8em;
+}
+.performance h4{
+    position: absolute;
+    color: #3E588E;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 500;
+    width: 77%;
+    /* border: 2px solid yellow; */
+    left: 2.5em;
+    top: 13em;
+}
+.help img{
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+}
+.help h2{
+    position: absolute;
+    color: #031335;
+    src: url("./fonts/Aventa-ExtraBold.woff2") format("woff2");
+    font-style: normal;
+    font-family: "Aventa-ExtraBold", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    left: 2.5em;
+    top: 8em;
+}
+.help h4{
+    position: absolute;
+    color: #3E588E;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 500;
+    width: 77%;
+    /* border: 2px solid yellow; */
+    left: 2.5em;
+    top: 13em;
+}
+.getstartted{
+    display: flex;
+    gap: 5em;
+    margin-bottom: 30px
+}
+.start-text h1{
+    color: #092256;
+    src: url("./fonts/Aventa-ExtraBold.woff2") format("woff2");
+    font-style: normal;
+    font-family: "Aventa-ExtraBold", sans-serif;
+    font-size: 37px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.start-text h3{
+    color: #3E588E;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 500;
+}
+.start-img img{
+    width: 80px;
+    /* width: 2px solid green; */
+}
+.simpleways{
+    /* border: 2px solid crimson; */
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-bottom: 50px; */
+}
+.filldetails{
+    width: 20%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.getverified{
+    width: 20%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.fundaccount{
+    width: 20%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.dashboard{
+    width: 20%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.number{
+    background-color: white;
+    border: 2px solid #8196BB ;
+    color: #245DC5;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 15px 20px;
+}
+.detailsh3{
+    src: url("./fonts/Aventa-ExtraBold.woff2") format("woff2");
+    font-style: normal;
+    font-family: "Aventa-ExtraBold", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #092256;
+    margin-top: 30px;
+}
+.provideh5{
+    color: rgb(62, 88, 142);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.botton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.store{
+    width: 30px;
+}
+.sign{
+    /* border: 2px solid green; */
+    background-color:#092256;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+
+        /* what section media query */
+
+@media(max-width:1181px){
+    .start-img img{
+    width: 300px;
+    }
+}
+
+@media(max-width:1080px){
+    .container{
+        display: flex;
+        gap: 1em;
+    }
+}
+
+@media(max-width:940px){
+    .container{
+        width: 100%;
+    }
+}
+
+@media(max-width:961px){
+    .start-img img{
+        display: none;
+    }
+    .simpleways{
+        flex-direction: column;
+    }
+    .arrowside{
+        display: none;
+    }
+    .filldetails{
+        width: 100%;
+    }
+    .getverified{
+        width: 100%;
+    }
+    .fundaccount{
+        width: 100%;
+    }
+    .dashboard{
+        width: 100%;
+    }
+    .what-text{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:818px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:487px){
+    .botton{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        gap: 1em;
+    }
+}
+
+@media(max-width:397px){
+    .sign{
+        font-size: 10px;
+        font-weight: 300;
+        padding: 5px 10px;
+    }
+}
+
+
+
+
+            /* footer section */
+
+    
+.foot{
+    background-color: #030B1D ;
+    width: 100%;
+}
+.footer-section{
+    width: 95%;
 }
