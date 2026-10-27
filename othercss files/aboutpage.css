@@ -280,10 +280,6 @@ ul{
     line-height: 23.6773px;
     color: white;
 }
-.imageee{
-    /* position: absolute; */
-    /* right: 0px; */
-}
 .imageee-img{
     /* border: 2px solid yellow; */
     width: 40em;
@@ -305,13 +301,13 @@ ul{
 }
 .news{
     display: flex;
-    justify-content: space-between;
+    gap: 2em;
     margin-bottom: 150px;
 }
 .pos-img{
     /* border: 2px solid green; */
-    width: 380px;
-    height: 250px;
+    width: 350px;
+    height: 220px;
     border-radius: 10px;
 }
 .posscale{
@@ -326,8 +322,8 @@ ul{
 }
 .punch-img{
     /* border: 2px solid green; */
-    width: 380px;
-    height: 250px;
+    width: 350px;
+    height: 220px;
     border-radius: 10px;
 }
 .punch{
@@ -342,8 +338,8 @@ ul{
 }
 .bank-img{
     /* border: 2px solid green; */
-    width: 380px;
-    height: 250px;
+    width: 350px;
+    height: 220px;
     border-radius: 10px;
 }
 .bankbags{
@@ -412,6 +408,7 @@ ul{
         /* hero section media query */
 
 
+
 @media(max-width:1072px){
     .content h4{
     top: 9em;
@@ -438,12 +435,47 @@ ul{
     .imagetext{
         min-height: 96vh;
     }
+    .dreams h1{
+        position: absolute;
+        top: 2em;
+        left: 7.5em;
+        text-align: center;
+    }
+    .dreams h5{
+        position: absolute;
+        top: 10em;
+        left: 29em;
+        text-align: center;
+    }
+    .dreams a{
+        position: absolute;
+        top: 12em;
+        left: 25em;
+    }
+   
+}
+
+@media(max-width:1064px){
+    .pos-img{
+        width: 250px;
+        height:180px;
+    }
+    .punch-img{
+    width: 250px;
+    height:180px;
+    }
+    .bank-img{
+        width:250px;
+        height:180px;
+    }
+}
 
 @media(max-width:1032px){
     .hero-text{
         width: 95%;
     }
 }
+
 
 @media(max-width:1020px){
     .shadow{
@@ -462,6 +494,43 @@ ul{
 @media(max-width:943px){
     .imagetext{
         flex-direction: column;
+        gap: 1em;
+        align-items: flex-start;
+    }
+
+    .text{
+        margin-top: 40px;
+        width: 100%;
+    }
+    .imageee-img{
+        width: 58.9em;
+    }
+}
+
+@media(max-width:941px){
+    .imageee-img{
+    width: 55em;
+    }
+}
+
+@media(max-width:906px){
+    .dreams h1{
+        position: absolute;
+        top: 2em;
+        left: 5px;
+        width: 100%;
+        text-align: center;
+    }
+    .dreams h5{
+        position: absolute;
+        top: 10em;
+        left: 23em;
+        text-align: center;
+    }
+    .dreams a{
+        position: absolute;
+        top: 12em;
+        left: 20em;
     }
 }
 
@@ -479,6 +548,61 @@ ul{
     
 }
 
+@media(max-width:881px){
+    .imageee-img{
+    width: 50em;
+    }
+}
+
+@media(max-width:873px){
+    .insidenews{
+        width: 95%;
+    }
+    .posscale{
+        font-size: 12px;
+    }
+    .punch{
+        font-size: 12px;
+    }
+    .bankbags{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:803px){
+    .imageee-img{
+    width: 45em;
+    }
+}
+
+@media(max-width:793px){
+    .pos-img{
+        width: 180px;
+        height:120px;
+    }
+    .punch-img{
+    width: 180px;
+    height:120px;
+    }
+    .bank-img{
+        width:180px;
+        height:120px;
+    }
+}
+
+@media(max-width:782px){
+    .dreams h5{
+        position: absolute;
+        top: 10em;
+        left: 18em;
+        text-align: center;
+    }
+    .dreams a{
+        position: absolute;
+        top: 12em;
+        left: 15em;
+    }
+}
 @media(max-width:760px){
     .hero-text{
         flex-direction: column;
@@ -493,10 +617,23 @@ ul{
     
 }
 
+@media(max-width:721px){
+    .imageee-img{
+    width: 40em;
+    }
+}
+
+
 @media(max-width:709px){
     .content h4{
     top: 9em;
     left:18em;
+    }
+}
+
+@media(max-width:641px){
+    .imageee-img{
+    width: 35em;
     }
 }
 
@@ -507,10 +644,43 @@ ul{
     }
 }
 
+@media(max-width:620px){
+    .dreams h5{
+        position: absolute;
+        top: 10em;
+        left: 12em;
+        text-align: center;
+    }
+    .dreams a{
+        position: absolute;
+        top: 12em;
+        left: 10em;
+    }
+}
+
+@media(max-width:572px){
+    .news{
+        flex-direction: column;
+    }
+    .posscale{
+        width: 100%;
+    }
+    .punch{
+        width: 100%;
+    }
+    .bankbags{
+        width: 100%;
+       
+    }
+}
+
 @media(max-width:562px){
     .content h4{
     top: 9em;
     left:12em;
+    }
+    .imageee-img{
+    width: 30em;
     }
 }
 
@@ -522,6 +692,13 @@ ul{
         left: 2.5em;
     }
 }
+
+@media(max-width:481px){
+    .imageee-img{
+    width: 25em;
+    }
+}
+
 @media(max-width:486px){
     .content h4{
     top: 9em;
@@ -529,6 +706,32 @@ ul{
     }
 }
 
+@media(max-width:468px){
+    .dreams h1{
+        position: absolute;
+        top: 1em;
+        left: 5px;
+        width: 100%;
+        text-align: center;
+    }
+    .dreams h5{
+        position: absolute;
+        top: 10em;
+        left: 8em;
+        text-align: center;
+    }
+    .dreams a{
+        position: absolute;
+        top: 12em;
+        left: 7em;
+    }
+}
+
+@media(max-width:4201px){
+    .imageee-img{
+    width: 20em;
+    }
+}
 
 @media(max-width:404px){
     .shadow h1{
@@ -551,5 +754,218 @@ ul{
     .content h4{
     top: 9em;
     left:6em;
+    }
+}
+@media(max-width:320px){
+    .dreams h1{
+        position: absolute;
+        top: 1em;
+        left: 5px;
+        width: 100%;
+        text-align: center;
+    }
+    .dreams h5{
+        position: absolute;
+        top: 13em;
+        left: 5em;
+        text-align: center;
+    }
+    .dreams a{
+        position: absolute;
+        top: 15em;
+        left: 2em;
+    }
+}
+
+
+
+        /* footer section */
+
+    
+.foot{
+    background-color: #030B1D ;
+    width: 100%;
+}
+.footer-section{
+    width: 90%;
+    margin: auto;
+}
+.moniewhite{
+    width: 150px;
+    margin-top: 50px;
+}
+.overall{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid crimson; */
+    margin-bottom: 50px;
+}
+.first-div{
+    display: flex;
+    gap: 4em;
+}
+.second-div{
+    display: flex;
+    gap: 4em;
+}
+.microfinance{
+    /* border: 2px solid crimson; */
+    width: 40%;
+    /* height: 30%; */
+}
+.microfinance p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 13px;
+    font-weight: 500;
+    color: #B1B4B9;
+    line-height: 20.8505px;
+    margin-bottom: 30px;
+    /* border: 2px solid green; */
+    width: 75%;
+}
+.bottton{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+.signn{
+    background-color: #020711;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: white;
+}
+.storee{
+    width: 25px;
+}
+.forbusiness{
+    line-height: 28.0789px;
+}
+.forpersonal{
+    line-height: 28.0789px;
+}
+.company{
+    line-height: 28.0789px;
+}
+.resources{
+    line-height: 28.0789px;
+}
+.forbusinessh4{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.forbusinesslia{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 500;
+    color: #B1B4B9;
+}
+
+.addresss{
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 500;
+    color: #B1B4B9;
+    line-height: 22.1596px;
+}
+.address{
+    display: flex;
+    /* border: 2px solid yellow; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.address h4{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 500;
+    color: #B1B4B9;
+    line-height: 22.1596px;
+}
+.connectus{
+    line-height: 22.1596px;
+}
+.findus{
+    line-height: 22.1596px;
+}
+.linee{
+    border-top: thin solid #B1B4B9;
+    margin-bottom: 10px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 500;
+    color: #565B67;
+    margin-bottom: 70px;
+}
+.policy{
+    display: flex;
+    gap: 4em;
+}
+.last p{
+    color: #565B67;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 25.8971px;
+}
+
+
+            /* footer media query */
+
+            
+
+@media(max-width:1075px){
+    .bottton a{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:961px){
+    .microfinance{
+        width: 100%;
+    }
+    .microfinance p{
+        width: 100%;
+    }
+    .overall{
+        flex-direction: column;
+    }
+    .bottton{
+        margin-bottom: 20px;
+    }
+    .first-div{
+        display: flex;
+        justify-content: center; 
+        margin-bottom: 20px;
+    }
+    .second-div{
+        display: flex;
+        justify-content: center; 
+    }
+}
+
+@media(max-width:575px){
+    .first-div{
+        margin-bottom: 20px;
+    }
+    .support{
+        display: none;
+    }
+    .address{
+        display: flex;
+        gap: 1em;
     }
 }

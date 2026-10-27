@@ -1126,6 +1126,7 @@ ul{
     justify-content: center;
     align-items: center;
     gap: 2em;
+    margin-bottom: 50px;
 }
 .store{
     width: 30px;
@@ -1214,6 +1215,172 @@ ul{
         padding: 5px 10px;
     }
 }
+
+
+                /* no section */
+
+
+.dreams{
+    background-image: url(../images/imgi_9_ctaL.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-color: #0349C7;
+    min-height: 60vh;
+    position: relative;
+}
+.dreams h1{
+    src: url("./fonts/Aventa-Bold.woff2") format("woff2");
+    font-style: normal;
+    font-family: "Aventa-Bold", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40.3729px;
+    width: 50%;
+    color: white;
+    position: absolute;
+    top: 3em;
+    left: 10em;
+    text-align: center;
+}
+.dreams h5{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.96px;
+    color: white;
+    position: absolute;
+    top: 12em;
+    left: 39em;
+    text-align: center;
+}
+.dreams a{
+    position: absolute;
+    top: 15em;
+    left: 34em;
+    text-align: center;
+    padding: 20px 30px;
+    background-color: #F2E5BB;
+    color: #031335;
+    line-height: 23.905px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+
+                /* no section media query */
+
+
+@media(max-width:1072px){
+    .dreams h1{
+        position: absolute;
+        top: 2em;
+        left: 7.5em;
+        text-align: center;
+    }
+    .dreams h5{
+        position: absolute;
+        top: 10em;
+        left: 29em;
+        text-align: center;
+    }
+    .dreams a{
+        position: absolute;
+        top: 12em;
+        left: 25em;
+    }
+}
+@media(max-width:906px){
+    .dreams h1{
+        position: absolute;
+        top: 2em;
+        left: 5px;
+        width: 100%;
+        text-align: center;
+    }
+    .dreams h5{
+        position: absolute;
+        top: 10em;
+        left: 23em;
+        text-align: center;
+    }
+    .dreams a{
+        position: absolute;
+        top: 12em;
+        left: 20em;
+    }
+}
+@media(max-width:782px){
+    .dreams h5{
+        position: absolute;
+        top: 10em;
+        left: 18em;
+        text-align: center;
+    }
+    .dreams a{
+        position: absolute;
+        top: 12em;
+        left: 15em;
+    }
+}
+@media(max-width:620px){
+    .dreams h5{
+        position: absolute;
+        top: 10em;
+        left: 12em;
+        text-align: center;
+    }
+    .dreams a{
+        position: absolute;
+        top: 12em;
+        left: 10em;
+    }
+}
+@media(max-width:468px){
+    .dreams h1{
+        position: absolute;
+        top: 1em;
+        left: 5px;
+        width: 100%;
+        text-align: center;
+    }
+    .dreams h5{
+        position: absolute;
+        top: 10em;
+        left: 8em;
+        text-align: center;
+    }
+    .dreams a{
+        position: absolute;
+        top: 12em;
+        left: 7em;
+    }
+}
+@media(max-width:320px){
+    .dreams h1{
+        position: absolute;
+        top: 1em;
+        left: 5px;
+        width: 100%;
+        text-align: center;
+    }
+    .dreams h5{
+        position: absolute;
+        top: 13em;
+        left: 5em;
+        text-align: center;
+    }
+    .dreams a{
+        position: absolute;
+        top: 15em;
+        left: 2em;
+    }
+}
+
 
 
             /* footer section */
