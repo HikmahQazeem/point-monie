@@ -1,0 +1,607 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+header{
+    background-color: #031335;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top:0;
+}
+.nav1{
+    /* position: fixed; */
+    width: 100%;
+    /* margin: auto; */
+    display: none;
+}
+.first-nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 12px;
+    font-weight: 300;
+}
+.first-nav a h3{
+    padding-left: 300px;
+}
+
+.business{
+    /* border: 2px solid crimson; */
+    width: 50%;
+    color: white;
+    background-color: #092256;
+    padding: 20px;
+}
+.personal{
+    /* border: 2px solid green; */
+    width: 50%;
+    background-color: #031335;
+    padding: 20px;
+    color: white;
+}
+/* .straight-line{
+    border-top: thin solid yellow;
+} */
+
+.second-nav{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo-div{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+.logo-div a img{
+    width: 150px;
+}
+.logo-div li{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 300;
+    color: #FDFDFD;
+    text-decoration-line: none;
+}
+.logo-div a li{
+    text-decoration: none;
+}
+/* .busy{
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    background-color: #35425D;
+    padding: 8px 20px;
+    text-decoration: none;
+} */
+
+.first-list{
+    display: flex;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 300;
+    gap: 1.5em;
+    
+}
+
+.bola li a{
+    color: #FDFDFD;
+    text-decoration-line: none;
+}
+.bola li a img{
+    width: 13px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.sign-up{
+    /* border: 2px solid yellow; */
+    width: 30px;
+    height: 20px;
+    border-radius: 20px;
+    background-color:#C4E9FD;
+    padding: 10px 15px;
+    color: black;
+    text-decoration-line: none;
+}
+.sign-up img{
+    width: 15px;
+}
+.harmburger{
+    display: none;
+}
+.busy:hover{
+    border: none;
+    border-radius: 50px;
+    background-color: #35425D;
+    padding: 10px 20px;
+}
+.per:hover{
+    border: none;
+    border-radius: 50px;
+    background-color: #35425D;
+    padding: 10px 20px;
+}
+.company:hover{
+    border: none;
+    border-radius: 50px;
+    background-color: #35425D;
+    padding: 10px 20px;
+}
+.about:hover{
+    border: none;
+    border-radius: 50px;
+    background-color: #35425D;
+    padding: 10px 20px;
+}
+.contact:hover{
+    border: none;
+    border-radius: 50px;
+    background-color: #35425D;
+    padding: 10px 20px;
+}
+.blog:hover{
+    border: none;
+    border-radius: 50px;
+    background-color: #35425D;
+    padding: 10px 20px;
+}
+
+/* ----header media query */
+
+@media(max-width:1041px){
+    .second-nav{
+        width: 100%;
+    }
+}
+@media(max-width:961px){
+    .nav1{
+        display: block;
+    }
+    .first-nav a h3{
+    padding-left: 180px;
+    }
+    .busy{
+        display: none;
+    }
+    .per{
+        display: none;
+    }
+    .bola{
+        display: none;
+    }
+    .flag{
+        display: none;
+    }
+    .nig{
+        display: none;
+    }
+    .up{
+        display: none;
+    }
+    .harmburger{
+        display: block;
+    }
+}
+@media(max-width:710px){
+    .first-nav a h3{
+    padding-left: 120px;
+    }
+}
+@media(max-width:582px){
+    .first-nav a h3{
+    padding-left: 100px;
+    }
+}
+@media(max-width:509px){
+    .first-nav a h3{
+    padding-left: 70px;
+    }
+}
+@media(max-width:428px){
+    .first-nav a h3{
+    padding-left: 50px;
+    }
+}
+@media(max-width:330px){
+    .first-nav a h3{
+    padding-left: 30px;
+    }
+}
+
+
+        /* hero section */
+
+body{
+    background-color: #F8FAFD;
+}
+.hero-section{
+    width: 100%;
+    background-color: #0357EE;
+    margin-top: 70px;
+    clip-path: ellipse(200% 100% at 50% 0%);
+}
+.hero-sect{
+    width: 95%;
+    margin: auto;
+    
+}
+.hero-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-text{
+    padding-top: 100px;
+    /* width: 80%; */
+}
+.hero-text h1{
+    /* border: 2px solid maroon; */
+    color: white;
+    line-height: 66.4028px;
+    src: url("./fonts/Aventa-ExtraBold.woff2") format("woff2");
+    font-style: normal;
+    font-family: "Aventa-ExtraBold", sans-serif;
+    font-size: 53px;
+    font-weight:600;
+    width: 50%;
+    margin-bottom: 40px;
+}
+.hero-text h1 span{
+    color: #FFF0C2; 
+}
+.hero-text h4{
+    color: #C3C9D5;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26.3714px;
+    width: 70%;
+    margin-bottom: 40px;
+    /* border: 2px solid magenta; */
+}
+.hero-text h5{
+    color: #C3C9D5;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.68px;
+}
+.botton{
+    display: flex;
+    gap: 1em;
+    /* border: 2px solid crimson; */
+    width: 70%;
+    margin-bottom: 20px;
+}
+.botton a{
+    color: white;
+    text-decoration-line: none;
+    padding: 20px 25px;
+    background-color: #031335;
+    border-radius: 10px;
+}
+.botton a img{
+    width: 30px;
+}
+
+.ndic{
+    width: 30px;
+}
+.cbn{
+    width: 15px;
+}
+.hero-image{
+    /* width: 40%; */
+}
+.hero-image  img{
+    padding-top: 100px;
+    /* border: 2px solid yellow; */
+    width: 40em;
+}
+
+
+            /* hero section media query */
+
+@media(max-width:1343px){
+    .hero-text h1{
+        width: 70%;
+    }
+    .hero-text h4{
+        width: 80%;
+    }
+    .botton{
+        width: 90%;
+    }
+}
+@media(max-width:1198px){
+    .hero-text h1{
+        width: 100%;
+    }
+    .hero-text h4{
+        width: 100%;
+    }
+    .botton{
+        width: 100%;
+    }
+    .hero-image img{
+        width: 35em;
+    }
+}
+@media(max-width:1058px){
+    .hero-image img{
+        width: 30em;
+    }
+
+}
+@media(max-width:978px){
+     .hero-text h4{
+        margin-bottom: 25px;
+    }
+    .botton{
+        margin-bottom: 5px;
+    }
+    .hero-text h1{
+        margin-bottom: 25px;
+    }
+
+}
+@media(max-width:973px){
+    .hero-image img{
+        width: 25em;
+    }
+    
+}
+@media(max-width:916px){
+    .hero-image{
+        display: none;
+    }
+    .hero-wrapper{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-text h4{
+        font-size: 12px;
+    }
+    .hero-text h5{
+        font-size: 10px;
+    }
+    .botton{
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:472px){
+    .botton a{
+    padding: 10px 20px;
+    font-size: 10px;
+    }
+}
+@media(max-width:344px){
+    .botton a{
+    padding: 5px 10px;
+    }
+}
+
+
+    /* bank with monie section  */
+
+
+
+.bank-with-monie{
+    width: 100%;
+    background-color: #FFFFFF;
+    /* border: 2px solid crimson; */
+}
+.bank-with-point{
+    width: 90%;
+    margin: auto;
+}
+.bank-with-moniepoint{
+    text-align: center;
+}
+.bank-with-moniepoint h1{
+    src: url("./fonts/Aventa-ExtraBold.woff2") format("woff2");
+    font-style: normal;
+    font-family: "Aventa-ExtraBold", sans-serif;
+    font-size: 52px;
+    font-weight:600;
+    color: #092256;
+    line-height: 59.4969px;
+    text-align: center;   
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.bank-with-moniepoint h1 span{
+    color: #0357EE;
+}
+.bank-with-moniepoint h3{
+    color: #3E588E;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26.3714px;
+    width: 63%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.bank-with-moniepoint h3 span{
+    color: #0357EE;
+}
+
+.instantdebit{
+    display:flex ;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.businessacc-text{
+    width: 40%;
+    /* left: 3em; */
+}
+.businessh3{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-weight: 500;
+    /* border: 2px solid yellow; */
+    background-color: #EBF1FE;
+    color: #022C77;
+    border-radius: 50px;
+    padding: 10px 20px;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+.businessacc-text h1{
+    /* border: 2px solid green; */
+    color: #10285B;
+    src: url("./fonts/Aventa-ExtraBold.woff2") format("woff2");
+    font-style: normal;
+    font-family: "Aventa-ExtraBold", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.businessacch3{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-weight: 500;
+    color: #3E588E;
+    /* border: 2px solid crimson; */
+    width: 80%;
+    margin-bottom:40px;
+}
+
+.learmore{
+    /* border: 2px solid crimson; */
+    background-color:#0357EE ;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 500;
+    color:#FCFCFD ;
+    padding: 20px 30px;
+    border-radius: 15px;
+    text-decoration-line: none;
+}
+.businessacc{
+    /* border: 2px solid green; */
+    width: 30em;
+}
+.personalaccount{
+    display:flex ;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.payment{
+    display:flex ;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.savings{
+    display:flex ;
+    justify-content: space-between;
+    /* margin-bottom: 100px; */
+}
+
+
+        /* bank with monie section media query */
+
+
+
+@media(max-width:1270px){
+    .businessacc-text h1{
+        width: 100%;
+    }
+}
+@media(max-width:1183px){
+    .bank-with-moniepoint h3{
+        width: 75%;
+    }
+}
+@media(max-width:1016px){
+    .businessacc-text h1{
+        font-size: 30px;
+    }
+}
+@media(max-width:854px){
+    .bank-with-moniepoint h3{
+        width: 100%;
+    }
+    .businessacc-text h1{
+        width: 100%;
+    }
+    .businessacc-text{
+        width: 100%;
+    }
+    .businessacch3{
+        width: 100%;
+    }
+    .instantdebit{
+        flex-direction: column-reverse;
+    }
+    .personalaccount{
+        flex-direction: column-reverse;
+    }
+    .payment{
+        flex-direction: column-reverse;
+    }
+    .savings{
+        flex-direction: column-reverse;
+    }
+    .businessacc{
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:503px){
+    .businessacc{
+        width: 25em;
+    }
+    .businessacc-text h1{
+        font-size: 25px;
+    }
+    .businessacch3{
+        font-size: 13px;
+    }
+}
+@media(max-width:429px){
+    .businessacc{
+        width: 20em;
+    }
+}
+@media(max-width:343px){
+    .businessacc{
+        width: 20em;
+    }
+}
+@media(max-width:337px){
+    .businessacc{
+        width: 15em;
+    }
+}
+
+
+

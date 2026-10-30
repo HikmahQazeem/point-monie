@@ -72,14 +72,14 @@ header{
     font-weight: 300;
     color: #FDFDFD;
 }
-.busy{
+/* .busy{
     border: none;
     border-radius: 20px;
     height: 30px;
     width: 100px;
     background-color: #35425D;
     padding: 8px 20px;
-}
+} */
 
 .first-list{
     display: flex;
@@ -123,6 +123,43 @@ ul{
 .harmburger{
     display: none;
 }
+.busy:hover{
+    border: none;
+    border-radius: 50px;
+    background-color: #35425D;
+    padding: 10px 20px;
+}
+.per:hover{
+    border: none;
+    border-radius: 50px;
+    background-color: #35425D;
+    padding: 10px 20px;
+}
+.companyone:hover{
+    border: none;
+    border-radius: 50px;
+    background-color: #35425D;
+    padding: 10px 20px;
+}
+.about:hover{
+    border: none;
+    border-radius: 50px;
+    background-color: #35425D;
+    padding: 10px 20px;
+}
+.contact:hover{
+    border: none;
+    border-radius: 50px;
+    background-color: #35425D;
+    padding: 10px 20px;
+}
+.blog:hover{
+    border: none;
+    border-radius: 50px;
+    background-color: #35425D;
+    padding: 10px 20px;
+}
+
 
 /* ----header media query */
 
