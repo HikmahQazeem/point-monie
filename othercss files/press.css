@@ -215,58 +215,224 @@ nav{
     border-radius: 20px;
 }
 
-.sec h1{
+.overrall{
     src: url("./fonts/Aventa-ExtraBold.woff2") format("woff2");
     font-style: normal;
     font-family: "Aventa-ExtraBold", sans-serif;
     font-size: 37px;
     font-weight: 600;
     color: #092256;
+    width: 95%;
+    margin: auto;
     line-height: 42.4978px;
     margin-bottom: 50px;
 }
-.overall{
+.overrrall{
     width: 95%;
     margin: auto;
 }
-.one{
+.posscale{
     display: flex;
-    gap: 1em;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 50px;
 }
-/* .left{
+.pos-img img{
+    width: 20em;
+}
+.pos-text a h5{
+    color: #03213F;
+    src: url("./fonts/Aventa-ExtraBold.woff2") format("woff2");
+    font-style: normal;
+    font-family: "Aventa-ExtraBold", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2331px;
+
+}
+.pos-text a h3{
+    color: #566574;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17.6631px;
+    text-decoration-line: underline;
+}
+.straight-line{
+    border-top: 2px solid #092256;
+    width:98%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.punch{
     display: flex;
-    gap: 1em;
-} */
-.leftone-one img{
-    width: 22em;
-    height: 13em;
-    border: 2px solid green;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 20px;
 }
-.leftone-two img{
-    width: 18em;
-    height: 13em;
-    border: 2px solid blue;
+.punch-img img{
+    width: 20em;
 }
-/* .right{
+.punch-text a h5{
+    color: #03213F;
+    src: url("./fonts/Aventa-ExtraBold.woff2") format("woff2");
+    font-style: normal;
+    font-family: "Aventa-ExtraBold", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2331px;
+
+}
+.punch-text a h3{
+    color: #566574;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17.6631px;
+    text-decoration-line: underline;
+}
+.micro{
     display: flex;
-    gap: 1em;
-} */
-.rightone-one img{
-    width: 18em;
-    height: 13em;
-    border: 2px solid red;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 20px;
 }
-/* .rightone-one h3{
-    width: 30%;
-} */
+.micro-img img{
+    width: 20em;
+}
+.micro-text a h5{
+    color: #03213F;
+    src: url("./fonts/Aventa-ExtraBold.woff2") format("woff2");
+    font-style: normal;
+    font-family: "Aventa-ExtraBold", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2331px;
 
-/* .rightone-two img{
-    width: 13em;
-    /* height: 13em; */
-    border: 2px solid crimson;
-} */
+}
+.micro-text a h3{
+    color: #566574;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17.6631px;
+    text-decoration-line: underline;
+}
+.launch{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 20px;
+}
+.launch-img img{
+    width: 20em;
+}
+.launch-text a h5{
+    color: #03213F;
+    src: url("./fonts/Aventa-ExtraBold.woff2") format("woff2");
+    font-style: normal;
+    font-family: "Aventa-ExtraBold", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2331px;
 
+}
+.launch-text a h3{
+    color: #566574;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17.6631px;
+    text-decoration-line: underline;
+}
+.market{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 20px;
+}
+.market-img img{
+    width: 20em;
+}
+.market-text a h5{
+    color: #03213F;
+    src: url("./fonts/Aventa-ExtraBold.woff2") format("woff2");
+    font-style: normal;
+    font-family: "Aventa-ExtraBold", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2331px;
 
+}
+.market-text a h3{
+    color: #566574;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17.6631px;
+    text-decoration-line: underline;
+}
+.africa{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 20px;
+}
+.africa-img img{
+    width: 20em;
+}
+.africa-text a h5{
+    color: #03213F;
+    src: url("./fonts/Aventa-ExtraBold.woff2") format("woff2");
+    font-style: normal;
+    font-family: "Aventa-ExtraBold", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2331px;
+
+}
+.africa-text a h3{
+    color: #566574;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17.6631px;
+    text-decoration-line: underline;
+}
+.leader{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 20px;
+}
+.leader-img img{
+    width: 20em;
+}
+.leader-text a h5{
+    color: #03213F;
+    src: url("./fonts/Aventa-ExtraBold.woff2") format("woff2");
+    font-style: normal;
+    font-family: "Aventa-ExtraBold", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2331px;
+
+}
+.leader-text a h3{
+    color: #566574;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17.6631px;
+    text-decoration-line: underline;
+}
 
 
 
@@ -416,6 +582,29 @@ nav{
     }
 }
 
+/* @media(max-width:598px){
+    .posscale{
+        flex-direction: column;
+    }
+    .punch{
+        flex-direction: column;
+    }
+    .micro{
+        flex-direction: column;
+    }
+    .launch{
+        flex-direction: column;
+    }
+    .market{
+        flex-direction: column;
+    }
+    .africa{
+        flex-direction: column;
+    }
+    .leader{
+        flex-direction: column;
+    }
+} */
 @media(max-width:562px){
     .content h4{
     top: 9em;
@@ -490,5 +679,362 @@ nav{
     .content h4{
         top: 9em;
         left:7em;
+    }
+}
+
+
+
+             /* no section */
+
+
+.dreams{
+    background-image: url(../images/imgi_9_ctaL.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-color: #0349C7;
+    min-height: 60vh;
+    position: relative;
+}
+.dreams h1{
+    src: url("./fonts/Aventa-Bold.woff2") format("woff2");
+    font-style: normal;
+    font-family: "Aventa-Bold", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40.3729px;
+    width: 50%;
+    color: white;
+    position: absolute;
+    top: 3em;
+    left: 10em;
+    text-align: center;
+}
+.dreams h5{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.96px;
+    color: white;
+    position: absolute;
+    top: 12em;
+    left: 39em;
+    text-align: center;
+}
+.dreams a{
+    position: absolute;
+    top: 15em;
+    left: 34em;
+    text-align: center;
+    padding: 20px 30px;
+    background-color: #F2E5BB;
+    color: #031335;
+    line-height: 23.905px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+
+                /* no section media query */
+
+
+@media(max-width:1072px){
+    .dreams h1{
+        position: absolute;
+        top: 2em;
+        left: 7.5em;
+        text-align: center;
+    }
+    .dreams h5{
+        position: absolute;
+        top: 10em;
+        left: 29em;
+        text-align: center;
+    }
+    .dreams a{
+        position: absolute;
+        top: 12em;
+        left: 25em;
+    }
+}
+@media(max-width:906px){
+    .dreams h1{
+        position: absolute;
+        top: 2em;
+        left: 5px;
+        width: 100%;
+        text-align: center;
+    }
+    .dreams h5{
+        position: absolute;
+        top: 10em;
+        left: 23em;
+        text-align: center;
+    }
+    .dreams a{
+        position: absolute;
+        top: 12em;
+        left: 20em;
+    }
+}
+@media(max-width:782px){
+    .dreams h5{
+        position: absolute;
+        top: 10em;
+        left: 18em;
+        text-align: center;
+    }
+    .dreams a{
+        position: absolute;
+        top: 12em;
+        left: 15em;
+    }
+}
+@media(max-width:620px){
+    .dreams h5{
+        position: absolute;
+        top: 10em;
+        left: 12em;
+        text-align: center;
+    }
+    .dreams a{
+        position: absolute;
+        top: 12em;
+        left: 10em;
+    }
+}
+@media(max-width:468px){
+    .dreams h1{
+        position: absolute;
+        top: 1em;
+        left: 5px;
+        width: 100%;
+        text-align: center;
+    }
+    .dreams h5{
+        position: absolute;
+        top: 10em;
+        left: 8em;
+        text-align: center;
+    }
+    .dreams a{
+        position: absolute;
+        top: 12em;
+        left: 7em;
+    }
+}
+@media(max-width:320px){
+    .dreams h1{
+        position: absolute;
+        top: 1em;
+        left: 5px;
+        width: 100%;
+        text-align: center;
+    }
+    .dreams h5{
+        position: absolute;
+        top: 13em;
+        left: 5em;
+        text-align: center;
+    }
+    .dreams a{
+        position: absolute;
+        top: 15em;
+        left: 2em;
+    }
+}
+
+
+
+            /* footer section */
+
+    
+.foot{
+    background-color: #030B1D ;
+    width: 100%;
+}
+.footer-section{
+    width: 90%;
+    margin: auto;
+}
+.moniewhite{
+    width: 150px;
+    margin-top: 50px;
+}
+.overall{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid crimson; */
+    margin-bottom: 50px;
+}
+.first-div{
+    display: flex;
+    gap: 4em;
+}
+.second-div{
+    display: flex;
+    gap: 4em;
+}
+.microfinance{
+    /* border: 2px solid crimson; */
+    width: 40%;
+    /* height: 30%; */
+}
+.microfinance p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 13px;
+    font-weight: 500;
+    color: #B1B4B9;
+    line-height: 20.8505px;
+    margin-bottom: 30px;
+    /* border: 2px solid green; */
+    width: 75%;
+}
+.bottton{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+.signn{
+    background-color: #020711;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: white;
+}
+.storee{
+    width: 25px;
+}
+.forbusiness{
+    line-height: 28.0789px;
+}
+.forpersonal{
+    line-height: 28.0789px;
+}
+.company{
+    line-height: 28.0789px;
+}
+.resources{
+    line-height: 28.0789px;
+}
+.forbusinessh4{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.forbusinesslia{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 500;
+    color: #B1B4B9;
+}
+
+.addresss{
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 500;
+    color: #B1B4B9;
+    line-height: 22.1596px;
+}
+.address{
+    display: flex;
+    /* border: 2px solid yellow; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.address h4{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 500;
+    color: #B1B4B9;
+    line-height: 22.1596px;
+}
+.connectus{
+    line-height: 22.1596px;
+}
+.findus{
+    line-height: 22.1596px;
+}
+.linee{
+    border-top: thin solid #B1B4B9;
+    margin-bottom: 10px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+    font-weight: 500;
+    color: #565B67;
+    margin-bottom: 70px;
+}
+.policy{
+    display: flex;
+    gap: 4em;
+}
+.last p{
+    color: #565B67;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 25.8971px;
+}
+
+
+            /* footer media query */
+
+@media(max-width:1075px){
+    .bottton a{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:961px){
+    .microfinance{
+        width: 100%;
+    }
+    .microfinance p{
+        width: 100%;
+    }
+    .overall{
+        flex-direction: column;
+    }
+    .bottton{
+        margin-bottom: 20px;
+    }
+    .first-div{
+        display: flex;
+        justify-content: center; 
+        margin-bottom: 20px;
+    }
+    .second-div{
+        display: flex;
+        justify-content: center; 
+    }
+}
+
+@media(max-width:575px){
+    .first-div{
+        margin-bottom: 20px;
+    }
+    .support{
+        display: none;
+    }
+    .address{
+        display: flex;
+        gap: 1em;
     }
 }
