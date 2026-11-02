@@ -282,9 +282,10 @@ ul{
 }
 .imageee-img{
     /* border: 2px solid yellow; */
-    width: 40em;
+    width:40em;
     
 }
+
 .insidenews{
     width:85%;
     margin: auto;
@@ -727,7 +728,7 @@ ul{
     }
 }
 
-@media(max-width:4201px){
+@media(max-width:401px){
     .imageee-img{
     width: 20em;
     }

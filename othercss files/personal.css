@@ -73,7 +73,7 @@ header {
     width: 150px;
 }
 
-.logo-div li {
+.logo-div a li{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-size: 14px;
